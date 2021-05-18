@@ -11,9 +11,9 @@ s2 = pd.Series([10, 20, 30], index=[1, 2, 3], name='B')
 s3 = pd.Series([100, 200, 300], index=[2, 3, 4], name='C')
 
 df = pd.DataFrame({s1.name: s1, s2.name: s2, s3.name: s3})  # 以字典形式
-# df2 = pd.DataFrame([s1, s2, s3])  # 以列表形式加入數列
+df2 = pd.DataFrame([s1, s2, s3])  # 以列表形式加入數列
 print(df)
-
+print(df2)
 
 
 '''
