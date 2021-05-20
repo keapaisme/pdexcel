@@ -21,4 +21,5 @@ def score_validation(row):
 
 students = pd.read_excel('temp/17Students.xlsx')
 # print(students)
-students.apply(score_validation, axis=1)
+students.apply(score_validation, axis=1)  # 從左到右是axis=1, 從上到下axis=0
+print(students)
